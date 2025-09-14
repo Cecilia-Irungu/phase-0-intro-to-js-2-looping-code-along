@@ -7,9 +7,8 @@ function writeCards( namesArray, event ) {
 }
 
 function countDown( startingNumber ) {
-  while ( startingNumber > 0 ) {
+  while ( startingNumber >= 0 ) {
     console.log( startingNumber );
-    startingNumber -= 1;
+    startingNumber--;
   }
-  console.log( startingNumber );
 }
